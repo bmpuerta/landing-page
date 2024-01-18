@@ -146,16 +146,26 @@ h2 {
 .quote {
     width: 700px;
     height: 150px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    width: 700px;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
 }
 .container-three {
     background: #E5E7EB;
     font-size: 36px;
-    font-family: 'light italic';
-    color: #1F2937;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .container-four {
@@ -168,8 +178,22 @@ h2 {
 .modal {
     background: #3882F6;
     border-radius: 5px;
-    padding: 40px 80px;
+    padding: 50px;
+    width: 1000px;
     display: flex;
+    justify-content: space-around;
+}
+
+.modal-header {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.modal-content {
+    font-weight: light;
+    color: #F9FAF8;
+    font-size: 15px;
 }
 
 .footer {
